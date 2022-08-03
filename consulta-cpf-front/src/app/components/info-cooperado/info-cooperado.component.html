@@ -1,0 +1,68 @@
+<div class="info-cooperado-content">
+
+    <div class="card">
+        <div>
+            <b>Situação cadastral do CPF</b>
+            <br>
+            <span class="label">consulta na recita federal</span>
+            <br><br>
+            <div class="card-div">
+                <div><mat-icon>person</mat-icon></div>
+                <div class="ml16">
+                    <div class="label">Nome</div>
+                    <div>{{cooperado?.name}}</div>
+                </div>              
+            </div>
+            <br>
+            <div class="card-div">
+                <div><mat-icon style="color: green;">check_circle_outline</mat-icon></div>
+                <div class="ml16">
+                    <div class="label">
+                        Situação do cpf
+                    </div>
+                    <div>
+                        {{cooperado?.situacao}}
+                    </div>
+                </div>
+            </div>
+          
+        </div>    
+    </div>
+
+    <div class="card">
+        <div>
+            <b>Conta Aplicação</b>
+            <br>
+            <span class="label">Cooperatia Viacredi</span>
+        </div>
+
+        <div class="card-div">
+            <div><mat-icon>credit_card</mat-icon></div>
+            <div class="ml16">
+                <div class="label">Número da conta</div>
+                <div>{{cooperado?.contaAplicacao}}</div>
+            </div>
+        </div>
+
+        <div>Duplicar Conta</div>
+    </div>
+
+    <div class="card">
+        <div>
+            <b>Conta Corrente</b>
+            <br>
+            <span class="label">Cooperatia Viacredi</span>
+        </div>
+
+        <div class="card-div">
+            <div><mat-icon>credit_card</mat-icon></div>
+            <div class="ml16">
+                <div class="label">Número da conta</div>
+                <div>{{cooperado?.contaCorrente}}</div>
+            </div>
+        </div>
+
+        <div>Duplicar Conta</div>
+    </div>
+
+</div>

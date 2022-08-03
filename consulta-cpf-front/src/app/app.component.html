@@ -1,0 +1,45 @@
+<mat-drawer-container class="container" autosize>
+  <mat-drawer #drawer class="sidenav" mode="side" opened>
+    <div class="menu">
+      <img src="../assets/img/unnamed.png"  style="width: 60px;" alt="">
+      <br>
+      <div class="menu-item">
+        <mat-icon>menu</mat-icon>
+      </div>
+
+      <div class="menu-item">
+        <mat-icon>search</mat-icon>
+      </div>
+
+      <div class="menu-item">
+        <mat-icon>star_border</mat-icon>
+      </div>
+
+      <div class="menu-item">
+        <mat-icon>filter_list</mat-icon>
+      </div>
+
+      <div class="menu-item">
+        <mat-icon>home</mat-icon>
+      </div>
+    </div>
+  </mat-drawer>
+
+  <div class="sidenav-content">
+    <div class="header-nav">
+      <div>
+        <div><b>NOVA ADIMSSÃO COOPERADO</b></div>
+        <div>Cadastro/ Admissão do Cooperado / Nova Admissão do Cooperado</div>
+      </div>
+ 
+      <div style="display: flex; align-items: center;">
+        <mat-icon  class="bell-icon" matBadge="7" matBadgeColor="warn">notifications_none</mat-icon>
+        <div class="vc-div">VIACREDI</div>
+        <div>
+          <img class="profile-img" src="../assets/img/tobey.jpg"  alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+<router-outlet></router-outlet>
+</mat-drawer-container>

@@ -1,0 +1,30 @@
+<div  class="consulta-content">
+    Informe o CPF do futuro cooperado(a)
+      Se necessário você poderá duplicar uma conta ou pausar e retormar esse cadastro futuramente.
+      <br>
+      Digite apenas números (sem pontos ou traços).
+      <br>
+      <br>
+      CPF
+      <br>
+      <div class="form">
+        <div>
+          <input [(ngModel)]="cpf" class="input" id="cpfInput" type="text"  [disabled]="cooperado">
+        </div>
+        <div>
+          <button mat-flat-button class="btn-primary"
+          (click)="consultarCooperado()" [disabled]="!cpf || cooperado"
+          >Consultar por CPF</button>
+        </div>
+      </div>
+    <br>
+    <br>
+    <br>
+    <app-info-cooperado *ngIf="cooperado" [cooperado]="cooperado"></app-info-cooperado>
+</div>
+<div class="footer">
+  <div>
+    <button class="footer-btn btn-primary" (click)="cpf =''; cooperado = null" mat-flat-button color="primary">Iniciar nova admissão</button>
+    <button class="footer-btn btn-secondary" mat-stroked-button color="primary">Dicas para admissão</button>
+  </div>
+</div>

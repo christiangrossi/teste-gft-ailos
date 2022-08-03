@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Tony Stark",
+      "cpf": "896.133.550-22",
+      "situacao": "regular",
+      "contaAplicacao": "553972-4",
+      "contaCorrente": "778461-8"
+    },
+    {
+      "id": 2,
+      "name": "Peter Parker",
+      "cpf": "619.244.240-10",
+      "situacao": "regular",
+      "contaAplicacao": "553972-4",
+      "contaCorrente": "448461-5"
+    },
+    {
+      "id": 3,
+      "name": "Steven Rogers",
+      "cpf": "158.088.900-04",
+      "situacao": "regular",
+      "contaAplicacao": "553972-4",
+      "contaCorrente": "788461-9"
+    }
+  ]
+}

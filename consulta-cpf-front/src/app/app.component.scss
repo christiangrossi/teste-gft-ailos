@@ -1,0 +1,71 @@
+.container {
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: #e6eef1;
+}
+
+.sidenav-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidenav {
+  padding: 20px;
+  background-color: #165C7D;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.menu-item {
+  padding: 8px;
+}
+
+.header-nav {
+  background-color: white; 
+  padding: 32px; 
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bell-icon {
+  color: #165C7D;
+  font-size: 32px;
+}
+
+.vc-div {
+  color: #165C7D;
+  border-radius: 16px;
+  border: solid 1px #165C7D;
+  padding: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: 32px;
+  font-weight: bolder;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  margin-left: 16px;
+  border-radius: 100px;
+}
+
+
+
+
